@@ -4,8 +4,12 @@
   "description": "A user management auth service",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.ts"
+    "dev": "node src/server.ts"
   },
   "author": "Robin Mahto <robinmahto1999@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  }
 }
