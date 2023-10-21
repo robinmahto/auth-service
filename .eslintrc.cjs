@@ -1,5 +1,9 @@
 module.exports = {
-    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended-type-checked', 'prettier'],
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended-type-checked',
+        'prettier',
+    ],
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint'],
     parserOptions: {
@@ -7,8 +11,8 @@ module.exports = {
         tsconfigRootDir: __dirname,
     },
     root: true,
-    rules:{
-        "no-console":"error",
-        "dot-notation":"error"
-    }
+    rules: {
+        'no-console': 'error',
+        'dot-notation': 'error',
+    },
 };
