@@ -1,9 +1,4 @@
-function login(username: string): string {
-    const person = {
-        name: 'robin',
-    };
-    const user = person.name;
-    return username + user;
-}
+import { Config } from './config';
 
-login('robin');
+console.log('node env: ', Config.NODE_ENV);
+console.log('Port: ', Config.PORT);
