@@ -14,5 +14,7 @@ module.exports = {
     rules: {
         'no-console': 'off',
         'dot-notation': 'error',
+        "@typescript-eslint/no-unsafe-member-access": "off",
+        "@typescript-eslint/no-unused-vars":"off"
     },
 };
